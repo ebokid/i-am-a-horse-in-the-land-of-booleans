@@ -1,0 +1,32 @@
+(if "foo" "truthy" "falsey")
+(use 'i-am-a-horse-in-the-land-of-booleans)
+boolean
+(boolean x)
+(abs x)
+(use 'i-am-a-horse-in-the-land-of-booleans)
+(abs x)
+(sign  2)
+(use 'i-am-a-horse-in-the-land-of-booleans)
+(sign  2)
+(/ 2 1)
+(/ 2 2)
+if (= 0 (/ 2 2)) true false
+(if (= 0 (/ 2 2)) true false)
+(if (= 0 (/ 2 1)) true false)
+(if (= 0 (mod 2 1)) true false)
+ls
+  (cond
+    (divides? 15 n) "gotcha!"
+    (divides? 5 n) "buzz"
+    (divides? 3 n) "fizz"
+    :else         ""));
+(boolean (+ 2 3))
+(boolean (+ 2 a))
+(+ 1)
+(+ n)
+(number? 1)
+(number? n)
+(number? "n")
+(+1 "n")
+(+ "n")
+(+"n")
